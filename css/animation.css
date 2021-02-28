@@ -1,0 +1,33 @@
+
+#typespace {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+#text {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    font-size: 75px;
+}
+
+#cursor {
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 75px;
+    background-color: #ffffff;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        background-color: transparent
+    }
+
+    50% {
+        background-color: #ffffff;
+    }
+}
