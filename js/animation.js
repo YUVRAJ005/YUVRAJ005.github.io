@@ -1,6 +1,6 @@
 
 // List of sentences
-var _CONTENT = ["Security Researcher", "CTF Player", "Bug Hunter"];
+var _CONTENT = ["Security Researcher", "Blockchain Developer", "CTF Player", "Bug Hunter"];
 
 // Current sentence being processed
 var _PART = 0;
